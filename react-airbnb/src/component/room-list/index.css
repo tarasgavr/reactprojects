@@ -1,0 +1,40 @@
+.header-2 {
+    border: 1px solid rgba(222, 226, 230, 1);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.grid-2 {
+    display: grid;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid rgba(222, 226, 230, 1);
+    border-radius: 12px;
+}
+
+.room {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.big {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.item-type {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item-price {
+    font-size: 16px;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
