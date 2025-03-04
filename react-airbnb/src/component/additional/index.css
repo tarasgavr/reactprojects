@@ -1,0 +1,16 @@
+.border-2 {
+    border-bottom: 1px solid rgba(222, 226, 230, 1);
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.right {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.font {
+    font-size: 16px;
+}

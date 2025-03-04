@@ -1,0 +1,25 @@
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-type-2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pain {
+    display: grid;
+    gap: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.pear {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.box-text {
+    font-size: 24px;
+    font-weight: bold;
+}

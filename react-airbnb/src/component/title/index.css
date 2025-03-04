@@ -1,0 +1,30 @@
+.style {
+    display: grid;
+    gap: 20px;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.title-main {
+    display: flex;
+    gap: 14px;
+}
+
+.value {
+    font-size: 16px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.value:not(:last-child)::after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+}

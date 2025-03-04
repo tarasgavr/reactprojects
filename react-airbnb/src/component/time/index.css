@@ -1,0 +1,12 @@
+.cool {
+    display: flex;
+    gap: 12px;
+}
+
+.spy {
+    margin-top: 12px;
+}
+
+.footer-2 {
+    margin-top: 10px;
+}

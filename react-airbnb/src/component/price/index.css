@@ -1,0 +1,36 @@
+.block {
+    display: flex;
+    gap: 12px;
+}
+
+.price {
+    font-size: 32px;
+    color: rgba(108, 117, 125, 1);
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-2 {
+    border: 1px solid rgba(222, 226, 230, 1);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.list {
+    margin-top: 24px;
+    display: grid;
+    gap: 12px;
+}
+
+.clear {
+    font-size: 16px;
+    display: flex;
+    gap: 12px;
+    border-bottom: 1px solid rgba(222, 226, 230, 1);
+    padding-bottom: 12px;
+} 
