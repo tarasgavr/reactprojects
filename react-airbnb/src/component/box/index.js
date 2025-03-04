@@ -5,7 +5,7 @@ export default function Box({ guests, bedrooms, title, image}) {
         <header class="header-box">
              <span class="border box-title">{title}</span>
              <div  class="border">
-                <img class="img-box" src={image}/>
+                <img class="img-box" alt="" src={image}/>
                 <span>{guests} гості</span>
              </div>
              <div  class="border">
