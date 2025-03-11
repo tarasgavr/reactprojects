@@ -162,10 +162,8 @@ function App() {
       <Header/>
       <Title
         title={data.listing_name}
-        rating={data.reviews_summary.average_rating}
-        review={data.reviews_summary.total_reviews}
-        city={data.location.city}
-        country={data.location.country}
+        {...data.reviews_summary}
+        {...data.location}
         superhost={data.superhost}
       />
       <Photo/>
