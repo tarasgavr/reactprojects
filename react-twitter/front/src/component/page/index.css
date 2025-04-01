@@ -1,5 +1,5 @@
 .page {
     padding: 20px;
     border: 1px solid rgba(230, 230, 230, 1);
-    width: 600px;
+    inline-size: 600px;
 }
