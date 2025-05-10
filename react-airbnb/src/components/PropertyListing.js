@@ -1,5 +1,5 @@
 import React from "react";
-import "./components/PropertyListing.css";
+import "./PropertyListing.css";
 
 const PropertyListing = () => (
   <div className="property-listing">
