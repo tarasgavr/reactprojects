@@ -1,4 +1,3 @@
-import React from "react";
 import Page from "./component/page";
 import PostList from "./container/post-list";
 

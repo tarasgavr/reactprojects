@@ -1,13 +1,16 @@
-import './App.css';
+import "./App.css";
+import Page from "./component/page";
+import PostList from "./container/post-list";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Page>
+        <PostList></PostList>
+      </Page>
     </div>
-  );
+  )
 }
 
 export default App;
+
