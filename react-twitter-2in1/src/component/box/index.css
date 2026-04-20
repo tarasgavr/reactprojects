@@ -1,10 +1,9 @@
 .box {
   display: grid;
   gap: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #e6e6e6;
   width: 343px;
-  border-radius: 20px;
-  padding: 16px 20px;
+  padding: 20px 20px;
   background-color: #fff;
 }
 
