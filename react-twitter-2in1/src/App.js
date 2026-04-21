@@ -1,5 +1,5 @@
-import Frame from './component/frame';
-import Box from './component/box';
+import Frame from './component/1-frame';
+import Box from './component/2-box';
 import './App.css';
 
 function App() {
