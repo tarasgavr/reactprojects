@@ -1,0 +1,31 @@
+.box {
+  display: grid;
+  gap: 20px;
+  border: 1px solid #e6e6e6;
+  width: 343px;
+  padding: 20px 20px;
+  background-color: #fff;
+}
+.input-block {
+  display: flex;
+  justify-content: space-between;
+}
+.input-block input {
+  width: 126px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: #888;
+}
+.input-block button {
+  background-color: #0050ff;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  border-radius: 121px;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 500;
+}
